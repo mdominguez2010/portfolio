@@ -1,4 +1,4 @@
 # portfolio
 My Website Portfolio
 
-This is contain all of my work, including examples, links, and whole shabang!
+This website will contain all of my work, including examples, links, and whole shabang!
