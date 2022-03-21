@@ -74,25 +74,43 @@ section{
     display: none;
     transform: translateY(0) scale(1);
     padding: 0 !important;
+    background-color: rgb(84, 194, 112);
 }
 
 .sec2{
     display: none;
     transform: translateY(0) scale(1);
+    background-color: slateblue;
 }
 
 .sec3{
     display: none;
     transform: translateY(0) scale(1);
+    background-color: slateblue;
 }
 .sec4{
     display: none;
     transform: translateY(0) scale(1);
+    background-color: slateblue;
 }
 
 .sec5{
     display: none;
     transform: translateY(0) scale(1);
+    background-color: slateblue;
+}
+
+.active{
+    display: block;
+    animation: scaleAnim 1s ease-in-out;
+    @keyframes scaleAnim {
+        0%{
+            transform: translateY(-100%) scaleY(0)
+        }
+        100%{
+            transform: translateY(0) scaleY(1)
+        }
+    }
 }
 
 
