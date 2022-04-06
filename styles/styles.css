@@ -908,9 +908,32 @@ section {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+}
+
+.contact-content-con .right-contact .submit-btn .submit-main-btn {
+  border-radius: 30px;
+  color: var(--color-primary);
+  font-weight: 600;
+  position: relative;
+  border: 1px solid var(--color-secondary);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  overflow: hidden;
+  background-color: var(--color-primary);
+}
+
+.contact-content-con .right-contact .submit-btn .submit-btn-text {
+  padding: 0 2rem;
+  color: var(--color-white);
 }
 
 /*Independent components*/
