@@ -486,6 +486,10 @@ section {
   width: 25%;
 }
 
+.about-stats .progress-bars .progress-bar .progress-con .progress .js .sass {
+  width: 20%;
+}
+
 .stat-title {
   text-transform: uppercase;
   font-size: 1.4rem;
